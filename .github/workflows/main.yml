@@ -25,3 +25,5 @@ jobs:
           ARM_SUBSCRIPTION_ID: ${{ secrets.ARM_SUBSCRIPTION_ID }}
           ARM_TENANT_ID: ${{ secrets.ARM_TENANT_ID }}
           CREATE_ACR: true
+        env:
+          PULUMI_CREDENTIALS_PATH: /github/home/.pulumi
