@@ -8,7 +8,7 @@ on:
 
 jobs:
   aks:
-    name: "aks create action"
+    name: "AKS create action"
     concurrency: test
     runs-on: ubuntu-latest
     steps:
