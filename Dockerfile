@@ -14,4 +14,4 @@ COPY --from=build /create-cosmosdb-action/target/action-0.0.1-SNAPSHOT.jar /usr/
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","/usr/local/lib/action.jar"]
 
-#  /Users/marcushines/devpomelopment/create-cosmosdb-action
+#/Users/marcushines/devpomelopment/create-cosmosdb-action
