@@ -1,4 +1,4 @@
-name: cosmosapp
+name: akscreate
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   aks:
-    name: "aks create action"
+    name: "akscreate action"
     concurrency: test
     runs-on: ubuntu-latest
     steps:
